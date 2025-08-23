@@ -73,6 +73,11 @@ function App() {
           <Button
             size="lg"
             className="bg-[#1DB954] hover:bg-[#1ed760] text-black font-bold py-4 px-8 rounded-full text-lg transition-all duration-300 hover:scale-105 shadow-2xl hover:shadow-[#1DB954]/20"
+            onClick={() => {
+              document.getElementById("menu-section")?.scrollIntoView({
+                behavior: "smooth",
+              });
+            }}
           >
             <Play size={20} className="mr-2" />
             Explore Our Menu
@@ -250,7 +255,6 @@ function App() {
                     referrerPolicy="no-referrer-when-downgrade"
                     className="rounded-lg"
                   />
-                  
                 </div>
               </CardContent>
             </Card>
@@ -272,8 +276,6 @@ function App() {
               Curated vibes for your late-night hangout sessions
             </p>
           </div>
-
-          
         </div>
       </section>
 

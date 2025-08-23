@@ -7,31 +7,31 @@ const menuItems = [
   {
     name: "Vada",
     description: "Crispy, golden perfection",
-    image: "./images/vada.jpg",
+    image: "https://github.com/eheeeh73-collab/cheroor-annan/blob/main/src/images/vada.jpg?raw=true",
     price: "₹15",
   },
   {
     name: "Coffee",
     description: "Your midnight fuel",
-    image: "images/coffee.jpg",
+    image: "https://github.com/eheeeh73-collab/cheroor-annan/blob/main/images/coffee.jpg?raw=true",
     price: "₹20",
   },
   {
     name: "Tea",
     description: "Classic comfort in a cup",
-    image: "images/tea.jpg",
+    image: "https://github.com/eheeeh73-collab/cheroor-annan/blob/main/images/tea.jpg?raw=true",
     price: "₹15",
   },
   {
     name: "Pazhampori",
     description: "Sweet banana fritters",
-    image: "images/pazhampori.jpg",
+    image: "https://github.com/eheeeh73-collab/cheroor-annan/blob/main/images/pazhampori.jpg?raw=true",
     price: "₹12",
   },
   {
     name: "Mutta Bajji",
     description: "Spicy egg fritters",
-    image: "images/mutta-bajji.jpg",
+    image: "https://github.com/eheeeh73-collab/cheroor-annan/blob/main/images/mutta-bajji.jpg?raw=true",
     price: "₹25",
   },
 ];

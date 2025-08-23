@@ -266,38 +266,14 @@ function App() {
               className="text-4xl md:text-5xl font-black mb-4 text-white"
               style={{ fontFamily: "'PolySans Bulky', sans-serif" }}
             >
-              The <span className="text-[#1DB954]">Perfect Playlist</span>
+              The <span className="text-[#1DB954]">Perfect Playlist Spot!</span>
             </h2>
             <p className="text-xl text-white font-semibold">
               Curated vibes for your late-night hangout sessions
             </p>
           </div>
 
-          <Card className="bg-[#181818] border-none overflow-hidden max-w-2xl mx-auto">
-            <CardContent className="p-8">
-              <div className="h-80 flex items-center justify-center bg-[#282828] rounded-lg mb-6">
-                <div className="text-center">
-                  <div className="w-16 h-16 bg-[#1DB954] rounded-full flex items-center justify-center mx-auto mb-4">
-                    <Play size={32} className="text-black" />
-                  </div>
-                  <h3
-                    className="text-xl font-black mb-2 text-white"
-                    style={{ fontFamily: "'PolySans Bulky', sans-serif" }}
-                  >
-                    Cheroor Nights Playlist
-                  </h3>
-                  <p className="text-white font-medium">
-                    Spotify embed coming soon...
-                  </p>
-                </div>
-              </div>
-              <p className="text-white font-medium text-sm">
-                The perfect soundtrack for your study breaks and midnight
-                conversations. Mix of chill beats, indie favorites, and campus
-                classics.
-              </p>
-            </CardContent>
-          </Card>
+          
         </div>
       </section>
 

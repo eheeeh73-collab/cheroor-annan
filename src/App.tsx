@@ -7,31 +7,36 @@ const menuItems = [
   {
     name: "Vada",
     description: "Crispy, golden perfection",
-    image: "https://github.com/eheeeh73-collab/cheroor-annan/blob/main/src/images/vada.jpg?raw=true",
+    image:
+      "https://github.com/eheeeh73-collab/cheroor-annan/blob/main/src/images/vada.jpg?raw=true",
     price: "₹15",
   },
   {
     name: "Coffee",
     description: "Your midnight fuel",
-    image: "https://github.com/eheeeh73-collab/cheroor-annan/blob/main/images/coffee.jpg?raw=true",
+    image:
+      "https://github.com/eheeeh73-collab/cheroor-annan/blob/main/images/coffee.jpg?raw=true",
     price: "₹20",
   },
   {
     name: "Tea",
     description: "Classic comfort in a cup",
-    image: "https://github.com/eheeeh73-collab/cheroor-annan/blob/main/images/tea.jpg?raw=true",
+    image:
+      "https://github.com/eheeeh73-collab/cheroor-annan/blob/main/images/tea.jpg?raw=true",
     price: "₹15",
   },
   {
     name: "Pazhampori",
     description: "Sweet banana fritters",
-    image: "https://github.com/eheeeh73-collab/cheroor-annan/blob/main/images/pazhampori.jpg?raw=true",
+    image:
+      "https://github.com/eheeeh73-collab/cheroor-annan/blob/main/images/pazhampori.jpg?raw=true",
     price: "₹12",
   },
   {
     name: "Mutta Bajji",
     description: "Spicy egg fritters",
-    image: "https://github.com/eheeeh73-collab/cheroor-annan/blob/main/images/mutta-bajji.jpg?raw=true",
+    image:
+      "https://github.com/eheeeh73-collab/cheroor-annan/blob/main/images/mutta-bajji.jpg?raw=true",
     price: "₹25",
   },
 ];
@@ -236,7 +241,7 @@ function App() {
               <CardContent className="p-0">
                 <div className="h-96">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3929.0441234567!2d76.21234567890123!3d10.123456789012345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTDCsDA3JzI0LjQiTiA3NsKwMTInNDQuNCJF!5e0!3m2!1sen!2sin!4v1234567890123!5m2!1sen!2sin"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3922.3961829293844!2d76.2245345748015!3d10.548138189587087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba7ef6da3cc0803%3A0x6717bf88bf7832fa!2sSwamis%20Thattukada!5e0!3m2!1sen!2sin!4v1755967177036!5m2!1sen!2sin"
                     width="100%"
                     height="100%"
                     style={{ border: 0 }}
@@ -245,6 +250,7 @@ function App() {
                     referrerPolicy="no-referrer-when-downgrade"
                     className="rounded-lg"
                   />
+                  
                 </div>
               </CardContent>
             </Card>

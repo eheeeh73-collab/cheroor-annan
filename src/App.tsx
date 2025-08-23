@@ -13,25 +13,25 @@ const menuItems = [
   {
     name: "Coffee",
     description: "Your midnight fuel",
-    image: "./images/coffee.jpg",
+    image: "images/coffee.jpg",
     price: "₹20",
   },
   {
     name: "Tea",
     description: "Classic comfort in a cup",
-    image: "./images/tea.jpg",
+    image: "images/tea.jpg",
     price: "₹15",
   },
   {
     name: "Pazhampori",
     description: "Sweet banana fritters",
-    image: "./images/pazhampori.jpg",
+    image: "images/pazhampori.jpg",
     price: "₹12",
   },
   {
     name: "Mutta Bajji",
     description: "Spicy egg fritters",
-    image: "./images/mutta-bajji.jpg",
+    image: "images/mutta-bajji.jpg",
     price: "₹25",
   },
 ];
